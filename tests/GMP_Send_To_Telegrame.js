@@ -4,8 +4,8 @@ const path = require('path');
 
 // === CONFIGURATION ===
 const excelFilePath = path.resolve(__dirname, 'filtered_output.xlsx'); // <-- Replace with your Excel path
-const telegramBotToken = '7871096849:AAHT-RcG0do2zJLINshLCTrbGrmgO2hknRo'; // <-- Replace with your bot token
-const telegramChatId = '-4744431609'; // <-- Replace with your Telegram chat ID
+const telegramBotToken = ''; // <-- Replace with your bot token
+const telegramChatId = ''; // <-- Replace with your Telegram chat ID
 
 // === HELPER ===
 function extractPercentage(estListingStr) {
